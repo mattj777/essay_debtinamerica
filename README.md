@@ -21,7 +21,7 @@ Another helpful portion of the code shows us that the web page has been written 
 ```<div id="isMobile"></div><div id="isPhone"></div><div id="isPhoneSm"></div><!--DESKTOP-->```
 
  However, although the code does feature this responsive design that allows for mobile users to have access to a curated version of the web page, it is **highly** limited. The mobile version of the webpage does not allow access to any of the web mapping or dashboard applications, instead limiting the user to just the dropdown menus and corresponding bar graphs. This is somewhat of a disappointment from an accessibility standpoint, and certainly does nothing to bridge the digital divide of people with full size monitors and the many Americans whose main access point to the internet i s via a smartphone, but it also seems understandable to not feature this massive application on the mobile side. Especially when so much of the data is still accessible from the dropdown menu format, albeit with a much less aesthetically appealing delivery.
- ![](img/mobile.jpg =100*20) 
+ ![](img/mobile.jpg =100x) 
 
 Moving onto the data behind the map, we can see that the data is also stored in the github repository. Each map version has its own corresponding csv file, hosted within the github repository’s document hierarchy. Using the ```Auto_loan-county.csv``` file as an example, we see that the data is listed by county, state, and county fips id, along with several variables for each county.
 
